@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>unit converter . Temperature</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div id="h1">
+        <h1>UNIT CONVERTION</h1>
+        <div id="home"><button><a href="homepage.html">Home</a></button></div>
+        <div id="main">
+            <ul>
+
+                <li><button><a href="tp1.html" target="_blank">Length</a></button></li>
+                <li><button><a href="#">Temperature</a></button></li>
+                <li><button><a href="tp3.html" target="_blank">Time</a></button></li>
+            </ul>
+        </div>
+
+        <table>
+            <tbody>
+                <tr></tr>
+                <td>
+                    <label><b>From:</b></label>
+                </td>
+                <td>&nbsp;</td>
+                <td>
+                    <label><b>To:</b></label>
+                </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" placeholder="input" id="input">
+                    <td>&nbsp</td>
+                    <td>
+                        <input type="text" placeholder="result" id="result">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <select id="inputType">
+                            <option value="" disabled selected>select unit</option>
+                            <option value="celsius">Celsius</option>
+                            <option value="kelvin">Kelvin</option>
+                            <option value="fahrenheit">Fahrenheit</option>
+
+                        </select>
+                    </td>
+                    <td>&nbsp;</td>
+                    <td>
+                        <select id="resultType">
+                            <option value="" disabled selected>select unit</option>
+                            <option value="celsius">Celsius</option>
+                            <option value="kelvin">Kelvin</option>
+                            <option value="fahrenheit">Fahrenheit</option>
+                        </select>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <hr>
+    <div id="back">
+        <h1>FORMULAS</h1>
+      </div> 
+    <hr>
+    <div id="h2">
+        <ul>
+            <li>Celsius :</li>
+            <ul>
+                <li>Celsius to Fahrenheit:<br>
+                    Formula: °F = (°C × 9/5) + 32</li>
+                <li>Celsius to Kelvin:
+                    <br>
+                    Formula: K = °C + 273.15
+                </li>
+
+            </ul>
+        </ul>
+
+        <ul>
+            <li>Kelvin :</li>
+            <ul>
+                <li>Kelvin to Celsius:
+                    <br>
+                    Formula: °C = K - 273.15
+                </li>
+                <li>Kelvin to Fahrenheit:
+                    <br>
+                    Formula: °F = (K - 273.15) × 9/5 + 32
+                </li>
+
+            </ul>
+        </ul>
+
+        <ul>
+            <li> Fahrenheit :</li>
+            <ul>
+                <li>Fahrenheit to Celsius:
+                    <br>
+                    Formula: °C = (°F - 32) × 5/9
+                </li>
+                <li>
+                    Fahrenheit to Kelvin:
+                    <br>
+                    Formula: K = (°F - 32) × 5/9 + 273.15
+                </li>
+
+            </ul>
+        </ul>
+    </div>
+
+    <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<hr>
+    <script src="tp2.js"></script>
+</body>
+
+</html>
